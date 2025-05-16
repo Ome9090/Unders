@@ -5,9 +5,10 @@ import { usePathname } from 'next/navigation';
 import { Logo } from '@/components/shared/Logo';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Rocket, UserCog, Info, Mail, HelpCircle, LogIn } from 'lucide-react';
+import { Menu,UserCog, Info, Mail, HelpCircle, LogIn } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import type { HTMLAttributes } from 'react';
+
 
 interface NavItem {
   href: string;
